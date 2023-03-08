@@ -1,0 +1,13 @@
+.container {
+    padding: 2em;
+    background-color: var(--light-grey);
+    border-radius: 25px;
+    margin-top: 2em;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    row-gap: 3em;
+}

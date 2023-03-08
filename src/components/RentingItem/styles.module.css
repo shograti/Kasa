@@ -1,0 +1,23 @@
+.container {
+    height: 340px;
+    width: 340px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.shadow {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0.3) 100%);
+    height: 340px;
+    width: 340px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container h2 {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 15ch;
+    color: #FFF;
+    margin: 0em 0em 1em 1em;
+}
