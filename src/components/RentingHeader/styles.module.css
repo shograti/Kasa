@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.left_column h1 {
+    color: var(--red);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.left_column h2 {
+    color: var(--red);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.right_column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.host_container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.host_container p {
+    max-width: 7ch;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--red);
+    text-align: right;
+    cursor: pointer;
+
+}
+
+.host_container img {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}

@@ -13,3 +13,7 @@ nav {
     color: var(--red);
 
 }
+
+header img {
+    cursor: pointer;
+}

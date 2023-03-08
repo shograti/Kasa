@@ -1,0 +1,13 @@
+.container {
+    min-height: 415px;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    margin: 0em 2em;
+    cursor: pointer;
+}
