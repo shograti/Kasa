@@ -13,16 +13,60 @@
   padding: 0;
 }
 
-
-
 body {
   font-family: 'Montserrat', sans-serif;
   max-width: 1240px;
+  padding: 0 1em;
   margin: 0 auto;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  padding-bottom: calc(209px + 2em)
 }
 
 a,
 a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+.not_found_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  min-height: calc(100vh - 120px);
+}
+
+.not_found_container h1 {
+  font-size: 288px;
+  font-weight: 700;
+  color: var(--red);
+}
+
+.not_found_container h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--red);
+}
+
+.not_found_container a {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--red);
+  margin-top: 10em;
+  text-decoration: underline;
+}
+
+.about_accordion_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin: 3em 0em;
+}
+
+.about_accordion_container>div {
+  min-width: 60%;
 }

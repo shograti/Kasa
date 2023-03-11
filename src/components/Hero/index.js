@@ -1,11 +1,14 @@
 import styles from './styles.module.css';
 
-function Hero() {
+function Hero({ image, text, hasShadow }) {
   return (
-    <div className={styles.hero}>
-      <div className={styles.shadow}>
-        <h1>Chez vous, partout et ailleurs</h1>
-      </div>
+    <div
+      className={styles.hero}
+      style={{ background: `url(${image}) no-repeat center center/cover` }}
+    >
+      {hasShadow && (
+        <div className={styles.shadow}>{text && <h1>{text}</h1>}</div>
+      )}
     </div>
   );
 }

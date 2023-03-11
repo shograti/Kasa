@@ -1,0 +1,47 @@
+.accordion {
+    min-width: 45%;
+    max-width: 45%;
+}
+
+.head {
+    background-color: var(--red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1em;
+    z-index: 2;
+}
+
+.head h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icon_collapsed {
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.icon_expanded {
+    cursor: pointer;
+}
+
+.body {
+    padding: 2em 1em;
+    background-color: var(--light-grey);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.body p {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--red);
+    line-height: 1.7rem;
+
+}

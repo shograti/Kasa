@@ -4,6 +4,9 @@ import data from './data/data.json';
 import Header from './components/Header';
 import slugify from './utils/slugify';
 import Renting from './pages/Renting';
+import Footer from './components/Footer';
+import NotFound from './pages/NotFound';
+import About from './pages/About';
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
               element={<Renting house={house} />}
             />
           ))}
+          <Route path="*" element={<NotFound />} />
+          <Route path="/a-propos" element={<About />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

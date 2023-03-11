@@ -1,10 +1,15 @@
 import Hero from '../components/Hero';
 import RentingList from '../components/RentingList';
+import heroImage from '../assets/hero-bg.png';
 
 function Home({ houses }) {
   return (
     <>
-      <Hero />
+      <Hero
+        image={heroImage}
+        hasShadow={true}
+        text={'Chez vous, partout et ailleurs'}
+      />
       <RentingList houses={houses} />
     </>
   );

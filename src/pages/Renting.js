@@ -1,3 +1,4 @@
+import RentingBody from '../components/RentingBody';
 import RentingHero from '../components/RentingHero';
 import RentingInfos from '../components/RentingInfos';
 
@@ -11,6 +12,10 @@ function Renting({ house }) {
         tags={house.tags}
         host={house.host}
         rating={house.rating}
+        description={house.description}
+        equipments={house.equipments}
+      />
+      <RentingBody
         description={house.description}
         equipments={house.equipments}
       />

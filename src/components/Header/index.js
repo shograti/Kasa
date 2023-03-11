@@ -9,8 +9,8 @@ function Header() {
     <header>
       <img src={logo} alt="Logo" onClick={() => navigate('/')} />
       <nav>
-        <Link>Accueil</Link>
-        <Link>A Propos</Link>
+        <Link to="/">Accueil</Link>
+        <Link to="/a-propos">A Propos</Link>
       </nav>
     </header>
   );
